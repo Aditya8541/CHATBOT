@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Exchange Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cultural Exchange Bot</h1>
+            <p>Discover traditions, languages, and festivals from around the world</p>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="bot-info">
+                    <i class="fas fa-robot"></i>
+                    <span>Cultural Exchange Assistant</span>
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hello! I'm your cultural exchange assistant. I can help you learn about different cultures, traditions, and festivals from around the world. What would you like to know about?
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+                    <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="calendar-section">
+            <h2>Upcoming Cultural Festivals</h2>
+            <div id="festival-calendar">
+                <!-- Festival events will be loaded here -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
